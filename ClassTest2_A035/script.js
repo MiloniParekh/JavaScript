@@ -18,23 +18,21 @@ document.addEventListener("DOMContentLoaded",
                  
               if ( temp === res.student1) {
              
-                var temp1= "Question 1: " + res.question1
-               
+                var temp1= "<h3>Question 1: " + res.question1 "</h3>";
+                 document.querySelector("#content")
+                .innerHTML = temp1;
               }
               else if (temp === res.student2) {
                
-                var temp2= "Question 2: " + res.question2
+                var temp2= "<h3>Question 2: " + res.question2 "</h3>;
+                 document.querySelector("#content")
+                .innerHTML = temp2;
               }
           else {
             var temp3 = "no such student";
           }
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + temp+ "</h2>";
-
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + temp1+ "</h2>";
-          document.querySelector("#content1")
-                .innerHTML = "<h2>" + temp2+ "</h2>";
+          
+         re
             });
       });
   
