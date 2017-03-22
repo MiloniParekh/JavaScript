@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded",
               }
               else if (temp === res.student2) {
                
-                var temp2= "<h3>Question 2: " + res.question2 "</h3>;
+                var temp2= "<h3>Question 2: " + res.question2 "</h3>";
                  document.querySelector("#content")
                 .innerHTML = temp2;
               }
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded",
             var temp3 = "no such student";
           }
           
-         re
+        
             });
       });
   
